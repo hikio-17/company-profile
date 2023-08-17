@@ -334,31 +334,31 @@ h2 {
   font-weight: 600;
 }
 
-.overlay {
+.card-fiture .overlay {
   background: rgba(0, 0, 0, .5);
   opacity: 0;
   transition: all ease-in-out .3s;
 }
 
-.overlay h5 {
+.card-fiture .overlay h5 {
   font-size: 36px;
   font-weight: 600;
   color: #fff;
 }
 
-.overlay span {
+.card-fiture .overlay span {
   font-size: 14px;
   font-weight: 400;
   color: #fff;
 }
 
-.overlay h6 {
+.card-fiture .overlay h6 {
   font-size: 24px;
   font-weight: 600;
   color: #fff;
 }
 
-.overlay button {
+.card-fiture .overlay button {
   width: 150px;
   height: 45px;
   color: #fff;
@@ -387,4 +387,135 @@ h2 {
   border-radius: 50%;
   border: none;
   background-color: var(--pr-color);
+}
+
+
+/* Style Section Contact */
+#contact {
+  background-image: url('../Assets/img/bg contact.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 158px;
+}
+
+#contact .container {
+  padding: 148px 0 148px 0;
+}
+
+#contact .overlay {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+#contact h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.kontak h6 {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 19px;
+  margin-bottom: 14px;
+}
+
+.kontak div {
+  padding: 5px;
+}
+
+.kontak div a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.kontak div a:hover {
+  text-decoration: underline;
+  color: var(--pr-color);
+}
+
+.kontak a {
+  text-decoration: none;
+}
+
+.kontak a {
+  margin-right: 18px;
+}
+
+.kontak span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card-contact h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--pr-color);
+}
+
+.card-contact {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.button-contact {
+  width: 100%;
+  height: 75px;
+  background-color: #00985B;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  border: none;
+}
+
+.form-control {
+  height: 75px !important;
+  background-color: #C4C4C4;
+}
+
+.form-floating label {
+  color: #717171;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+footer {
+  width: 100%;
+  height: 270px;
+  background-color: #000;
+}
+
+footer .logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+footer .footer-link a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+
+  transition: all ease-in-out .3s;
+}
+
+footer .footer-link a:hover {
+  color: var(--pr-color);
+}
+
+.copyright {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  bottom: 5%;
+  left: 50%;
 }
