@@ -16,6 +16,15 @@ body {
   z-index: 2;
 }
 
+.nav-color {
+  background-color: var(--pr-color);
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+  transition: all ease-in-out 0.3s;
+}
+
 .accsent-img {
   z-index: 1;
   height: 100%;
