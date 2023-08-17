@@ -322,3 +322,69 @@ h2 {
   font-weight: 400;
   line-height: 1.2rem;
 }
+
+/* Style Section Fiture Rumah */
+.button-fiture {
+  width: 238px;
+  height: 63px;
+  border: none;
+  color: #fff;
+  background-color: var(--pr-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, .5);
+  opacity: 0;
+  transition: all ease-in-out .3s;
+}
+
+.overlay h5 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.overlay span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.overlay h6 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.overlay button {
+  width: 150px;
+  height: 45px;
+  color: #fff;
+  background-color: var(--pr-color);
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-fiture .overlay:hover {
+  background-color: rgba(0, 0, 0, .5);
+  opacity: 1;
+}
+
+.button-fiture-s {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--pr-color);
+}
+
+.button-fiture-e {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--pr-color);
+}
