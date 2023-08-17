@@ -1,11 +1,66 @@
 @media screen and (max-width: 922px) {
+   .input-search .button-secondary {
+      width: 120px;
+      font-size: 14px;
+   }
 
+   .input-search .button-primary {
+      font-size: 24px;
+   }
+
+   .card-layanan {
+      margin-bottom: 50px;
+   }
 }
 
 @media screen and (max-width: 576px) {
+   .hero-tagline h1 {
+      width: 70%;
+      font-size: 32px;
+   }
 
+   .img-hero {
+      width: 70%;
+      height: auto;
+   }
+
+   .hero-tagline p {
+      font-size: 14px;
+      width: 75%;
+      margin-bottom: 60px;
+   }
+
+   h2 {
+      font-size: 40px;
+   }
+
+   .card-layanan {
+      margin-bottom: 50px;
+   }
+
+   #search h2 {
+      font-size: 32px;
+   }
+
+   #search p {
+      font-size: 18px;
+   }
+
+   .input-search .button-secondary {
+      width: 50%;
+      height: 60px;
+   }
+   
+   .input-search .button-primary {
+      height: 60px;
+      font-size: 24px;
+   }
+
+   .input-search .form-control {
+      height: 60px !important;
+   }
 }
 
 @media screen and (max-width: 350px) {
-   
+
 }

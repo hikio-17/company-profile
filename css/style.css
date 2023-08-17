@@ -232,7 +232,7 @@ h2 {
 
 .input-search .button-secondary {
    width: 200px;
-   height: 88px;
+   height: 75px;
    color: var(--pr-color);
    font-size: 18px;
    font-weight: 400;
@@ -241,7 +241,7 @@ h2 {
 }
 
 .input-search .button-primary {
-   height: 88px;
+   height: 75px;
    border: none;
    background-color: var(--pr-color);
    color: #fff;
